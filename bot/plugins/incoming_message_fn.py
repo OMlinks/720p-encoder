@@ -29,7 +29,7 @@ from bot.helper_funcs.display_progress import (
 )
 
 from pyrogram import Client, filters
-from pyrogram.handlers import MessageHandler, CallbackQueryHandler
+from pyrogram.handlers import MessageHandler, CallbackQueryHandler, Message
 from pyrogram.types import ChatPermissions, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, UsernameNotOccupied, ChatAdminRequired, PeerIdInvalid
 
